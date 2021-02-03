@@ -1,0 +1,9 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nb, ap1, ap2, telefono)>
+<!ELEMENT nb (#PCDATA)>
+<!ELEMENT ap1 (#PCDATA)>
+<!ELEMENT ap2 (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+
+<!ATTLIST alumno matricula CDATA>

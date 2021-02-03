@@ -1,0 +1,9 @@
+<!ELEMENT junta (propietario1)>
+<!ELEMENT propietario1 (codigo, nombre, apellidos, portal, pisoyletra, ccc, cargo)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT portal (#PCDATA)>
+<!ELEMENT pisoyletra (#PCDATA)>
+<!ELEMENT ccc (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>

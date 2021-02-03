@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<!DOCTYPE alumnos [
+        <!ELEMENT alumnos (alumno)>
+        <!ELEMENT alumno (nb, ap1, ap2, telefono)>
+        <!ELEMENT nb (#PCDATA)>
+        <!ELEMENT ap1 (#PCDATA)>
+        <!ELEMENT ap2 (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+
+        <!ATTLIST alumno matricula CDATA>
+        ]>
+<alumnos>
+    <alumno matricula="M1">
+        <nb>Carmen</nb>
+        <ap1>Perez</ap1>
+        <ap2> Penna</ap2>
+        <telefono> 66666666</telefono>
+    </alumno>
+    <alumno>
+        <nb>Antonio</nb>
+        <ap1>Penna</ap1>
+        <ap2> Pepito</ap2>
+        <telefono> 91999999</telefono>
+    </alumno>
+    <alumno>
+        <nb>Pepe</nb>
+        <ap1>Cordero</ap1>
+        <ap2> Pizarro</ap2>
+        <telefono> 666333333 </telefono>
+    </alumno>
+</alumnos>

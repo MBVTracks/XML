@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE autor [
+        <!ELEMENT autor (titulo, capitulo)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT capitulo (#PCDATA)>
+        <!ATTLIST autor libro CDATA>
+        <!ATTLIST capitulo numero CDATA>
+        ]>
+<autor libro="anónimo">
+    <titulo>libro de ejemplo</titulo>
+    <capitulo numero="1">
+        Escriba aquí el contenido del capítulo 1.
+    </capitulo>
+    <capitulo numero="2">
+        Escriba aquí el contenido del capítulo 2.
+    </capitulo>
+</autor>

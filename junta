@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE junta SYSTEM "junta.dtd">
+<junta>
+    <propietario1>
+        <codigo>032</codigo>
+        <nombre>Luis</nombre>
+        <apellidos>Blanco Seguere</apellidos>
+        <portal>134</portal>
+        <pisoyletra>11º D</pisoyletra>
+        <ccc>027121234834</ccc>
+        <cargo>Ninguno</cargo>
+    </propietario1>
+</junta>

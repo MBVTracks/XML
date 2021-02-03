@@ -1,0 +1,6 @@
+<!ELEMENT librococina (id, ingrediente)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+
+<!ATTLIST id receta CDATA>
+<!ATTLIST ingrediente ref CDATA>

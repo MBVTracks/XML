@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<!DOCTYPE receta [
+        <!ELEMENT librococina (id, ingrediente)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT ingrediente (#PCDATA)>
+
+        <!ATTLIST id receta CDATA>
+        <!ATTLIST ingrediente ref CDATA>
+        ]>
+<librococina>
+    <id receta="rec_1"> Mousse de chocolate</id>
+    <id receta="rec_2"> Fondue saboyana</id>
+    <id receta="rec_3"> Fondue de chocolate</id>
+    <ingrediente ref="rec_1 rec_3"> chocolate </ingrediente>
+    <ingrediente ref="rec_2"> Comté </ingrediente>
+</librococina>

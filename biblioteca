@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libro cod="M1">
+        <isbn>987876</isbn>
+        <titulo>el capitan groe</titulo>
+        <autor> Alicia First</autor>
+    </libro>
+    <usuario matricula="L878">
+        <nombre>Antonio</nombre>
+        <apellido>Penna</apellido>
+    </usuario>
+    <prestamo libro="M1" usuario="L878">
+        <fechaIni>Pepe</fechaIni>
+        <fechaFin>Cordero</fechaFin>
+    </prestamo>
+</biblioteca>
