@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+    <libro categoria="cocina">
+        <titulo idioma="es">1000 recetas de oro</titulo>
+        <autor>Karlos Arguiñano</autor>
+        <anyo>2018</anyo>
+        <precio>30.00</precio>
+    </libro>
+    <libro categoria="novela">
+        <titulo idioma="es">El desorden que dejas</titulo>
+        <autor>Carlos Montero</autor>
+        <anyo>2016</anyo>
+        <precio>18.95</precio>
+    </libro>
+    <libro categoria="tecnología">
+        <titulo idioma="en">XQuery Kick Start</titulo>
+        <autor>James McGovern</autor>
+        <autor>Per Bothner</autor>
+        <autor>Kurt Cagle</autor>
+        <autor>James Linn</autor>
+        <autor>Vaidyanathan Nagarajan</autor>
+        <seccion par="1">
+            <capitulo num="1">
+                <titulo>XML The foundation of XQuery</titulo>
+                <paginas>14</paginas>
+            </capitulo>
+            <capitulo num="2">
+                <titulo>Understanding the XPath specification</titulo>
+                <paginas>35</paginas>
+            </capitulo>
+        </seccion>
+        <anyo>2003</anyo>
+        <precio>49.99</precio>
+    </libro>
+    <libro categoria="web" cubierta="tapa blanda">
+        <titulo idioma="en">Learning XML</titulo>
+        <autor>Erik T. Ray</autor>
+        <capitulo num="1">
+            <titulo>Introduction</titulo>
+            <paginas>24</paginas>
+        </capitulo>
+        <capitulo num="2">
+            <titulo>Markup and Core Concepts</titulo>
+            <paginas>34</paginas>
+        </capitulo>
+        <anyo>2003</anyo>
+        <precio>39.95</precio>
+    </libro>
+</libreria>
