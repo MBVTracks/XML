@@ -1,0 +1,16 @@
+<!ELEMENT musica (musicos, obras)>
+  <!ELEMENT musicos (musico*)>
+  <!ELEMENT musico (nombre, fechas, pais)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT fechas (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT obras (obra*)>
+  <!ELEMENT obra (autor, nombre, genero)>
+  <!ELEMENT genero (instrumento*)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT instrumento (#PCDATA)>
+
+  <!ATTLIST musico id CDATA #IMPLIED>
+  <!ATTLIST fechas nacimiento CDATA #REQUIRED>
+  <!ATTLIST fechas muerte CDATA #REQUIRED>
+  <!ATTLIST genero nombre CDATA #REQUIRED>
